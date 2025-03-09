@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/public/vite.svg" />
+    <link rel="stylesheet" href="/src/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple Calculator</title>
   </head>
@@ -12,41 +13,102 @@
       <div class="bg-gray-800 border-2 border-gray-900 shadow-2xl rounded-lg">
         <!--form goes here-->
         <form class="border-b-2 border-gray-900">
-          <input type="text" class="bg-transparent outline-none focus:bg-gray-700 rounded-t-lg p-8 text-3xl text-right text-white font-mono placeholder:italic " id="display" placeholder="Type here...">
+          <input
+            type="text"
+            class="bg-transparent outline-none focus:bg-gray-700 rounded-t-lg p-8 text-3xl text-right text-white font-mono placeholder:italic"
+            id="display"
+            placeholder="Type here..."
+          />
         </form>
         <!--buttons go here-->
         <div class="p-6 text-gray-800 grid grid-cols-4 gap-4 text-xl">
-          <button class="btn-C font-mono col-span-3 bg-blue-500 hover:bg-blue-400 rounded-full p-5 btn">C</button>
-          <button class="btn-divide font-mono bg-purple-500 hover:bg-purple-400 rounded-full p-5">&divide;</button>
+          <button
+            class="btn-C font-mono col-span-3 bg-blue-500 hover:bg-blue-400 rounded-full p-5 btn"
+          >
+            C
+          </button>
+          <button
+            class="btn-divide font-mono bg-purple-500 hover:bg-purple-400 rounded-full p-5"
+          >
+            &divide;
+          </button>
 
-          <button class="btn font-mono bg-gray-500 hover:bg-gray-400 rounded-full p-5">1</button>
-          <button class="btn font-mono bg-gray-500 hover:bg-gray-400 rounded-full p-5">2</button>
-          <button class="btn font-mono bg-gray-500 hover:bg-gray-400 rounded-full p-5">3</button>
-          <button class="btn-times font-mono bg-purple-500 hover:bg-purple-400 rounded-full p-5">&times;</button>
+          <button
+            class="btn font-mono bg-gray-500 hover:bg-gray-400 rounded-full p-5"
+          >
+            1
+          </button>
+          <button
+            class="btn font-mono bg-gray-500 hover:bg-gray-400 rounded-full p-5"
+          >
+            2
+          </button>
+          <button
+            class="btn font-mono bg-gray-500 hover:bg-gray-400 rounded-full p-5"
+          >
+            3
+          </button>
+          <button
+            class="btn-times font-mono bg-purple-500 hover:bg-purple-400 rounded-full p-5"
+          >
+            &times;
+          </button>
 
-          <button class="btn font-mono bg-gray-500 hover:bg-gray-400 rounded-full p-5">4</button>
-          <button class="btn font-mono bg-gray-500 hover:bg-gray-400 rounded-full p-5">5</button>
-          <button class="btn font-mono bg-gray-500 hover:bg-gray-400 rounded-full p-5">6</button>
-          <button class="btn-minus font-mono bg-purple-500 hover:bg-purple-400 rounded-full p-5">&minus;</button>
+          <button
+            class="btn font-mono bg-gray-500 hover:bg-gray-400 rounded-full p-5"
+          >
+            4
+          </button>
+          <button
+            class="btn font-mono bg-gray-500 hover:bg-gray-400 rounded-full p-5"
+          >
+            5
+          </button>
+          <button
+            class="btn font-mono bg-gray-500 hover:bg-gray-400 rounded-full p-5"
+          >
+            6
+          </button>
+          <button
+            class="btn-minus font-mono bg-purple-500 hover:bg-purple-400 rounded-full p-5"
+          >
+            &minus;
+          </button>
 
-          <button class="btn font-mono bg-gray-500 hover:bg-gray-400 rounded-full p-5">7</button>
-          <button class="btn font-mono bg-gray-500 hover:bg-gray-400 rounded-full p-5">8</button>
-          <button class="btn font-mono bg-gray-500 hover:bg-gray-400 rounded-full p-5">9</button>
-          <button class="btn-plus font-mono bg-purple-500 hover:bg-purple-400 rounded-full p-5">&plus;</button>
+          <button
+            class="btn font-mono bg-gray-500 hover:bg-gray-400 rounded-full p-5"
+          >
+            7
+          </button>
+          <button
+            class="btn font-mono bg-gray-500 hover:bg-gray-400 rounded-full p-5"
+          >
+            8
+          </button>
+          <button
+            class="btn font-mono bg-gray-500 hover:bg-gray-400 rounded-full p-5"
+          >
+            9
+          </button>
+          <button
+            class="btn-plus font-mono bg-purple-500 hover:bg-purple-400 rounded-full p-5"
+          >
+            &plus;
+          </button>
 
-          <button class="btn font-mono bg-purple-500 hover:bg-purple-400 rounded-full p-5">0</button>
-          <button class="btn-equals font-mono col-span-3 bg-blue-500 hover:bg-blue-400 rounded-full p-5 hover:scale-105 text-4xl">&equals;</button>
+          <button
+            class="btn font-mono bg-purple-500 hover:bg-purple-400 rounded-full p-5"
+          >
+            0
+          </button>
+          <button
+            class="btn-equals font-mono col-span-3 bg-blue-500 hover:bg-blue-400 rounded-full p-5 hover:scale-105 text-4xl"
+          >
+            &equals;
+          </button>
         </div>
       </div>
     </div>
-
-
-
-
-
-
-
-
 
     <script type="module" src="/src/main.js"></script>
     <script src="logic.js"></script>
