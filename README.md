@@ -1,7 +1,6 @@
 ## Simple Calculator
-
+This is a simple calculator built using HTML, TailwindCSS and javascript. It can perform simple arithmetic operations like subtraction, multiplication, and division.
 Live demo [click here](https://samuel-dwomoh.github.io/Calculator/).
-This is a simple calculator to practice Tailwindcss classes
 
 ## Classes used
 
